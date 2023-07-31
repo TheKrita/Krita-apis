@@ -1,7 +1,8 @@
 import express from "express"
-import { test } from "../controller/index.controller.js"
+import authenticationRouter from "./authentication/authentication.router.js"
+
 const apiRouter = express.Router()
 
-apiRouter.use("/ping", test)
+apiRouter.use("/auth", authenticationRouter)
 
 export default apiRouter

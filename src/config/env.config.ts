@@ -9,5 +9,9 @@ export const env = {
 	},
 	mongodb: {
 		MONGO_DB_DEV_URL: process.env.MONGO_DB_DEV_URL
+	},
+	nodemailer: {
+		AUTH_USER: process.env.AUTH_USER,
+		AUTH_PASSWORD: process.env.AUTH_PASSWORD
 	}
 }
