@@ -10,12 +10,16 @@
     "target": "es5",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-  },
-  "include": [
-    "./src/**/*.ts",
-    "index.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictBindCallApply": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "incremental": true,
+  }
 }
